@@ -1,6 +1,7 @@
 # AdvancedCalc
 An Advanced Calculator to Calculate Advanced Methods like Average, Trignometry, HCF, LCM easily
 
+Note: This Package is in Development so there are many features left so please be patient until the updates.
 ## Installation
 advancedCalc requires an installation of python 3.6 or greater, as well as pip. Pip is typically bundled with python installations, and you can find options for how to install python at https://python.org.
 
