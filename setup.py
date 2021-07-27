@@ -12,7 +12,7 @@ setup(
   name='advancedcalc',
   version='0.0.1',
   description='An Advanved Calculator with Trignometry and Other Functions',
-  long_description=open('README.md').read() + '\n\n' + open('CHANGELOG.txt').read(),
+  long_description=open('README.md').read(),
   long_description_content_type="text/markdown",
   url='https://github.com/programmerayush7/advancedcalc',  
   author='Programmer Ayush',
