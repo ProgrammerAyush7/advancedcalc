@@ -38,7 +38,7 @@ print(answer)
 #### Using `auto_arrange` Parameter
 The `auto_arrange` parameter is usually used to pretend to get negative answers (eg. -1, -6, etc.). 
 
-1. Without `auto_arrange`
+- Without `auto_arrange`
 ```python
 import AdvancedCalc
 calculator = AdvancedCalc.Calculator
@@ -47,7 +47,7 @@ calculator = AdvancedCalc.Calculator
 answer = calculator.subtract(4, 5)
 print(answer)
 ```
-2. With `auto_arrange`
+- With `auto_arrange`
 ```python
 import AdvancedCalc
 calculator = AdvancedCalc.Calculator
@@ -60,7 +60,7 @@ print(answer)
 #### Multiplying Numbers
 Multiply 2 Numbers using this Function
 ```python
-impport AdvancedCalc
+import AdvancedCalc
 calculator = AdvancedCalc.Calculator
 
 # returns 25
@@ -121,7 +121,7 @@ print(cube)
 
 #### Percentage
 lets try finding 10 percent of 200
-Note: This Function returns a float, so if you want a number, you can convert it into an int.
+- Note: This Function returns a float, so if you want a number, you can convert it into an int.
 
 ```python
 from AdvancedCalc import Advanced
