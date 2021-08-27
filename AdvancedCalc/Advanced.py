@@ -46,15 +46,15 @@ def factors(num):
 def cube(num):
     return num*num*num
 
-def hfc(num1, num2):
+def hcf(num1, num2):
     factors1 = set(factors(num1))
     factors2 = set(factors(num2))
     
     common = list(factors1 & factors2)
     
     if (factors1 & factors2):
-        hfc = max(common)
-        return hfc
+        hcf = max(common)
+        return hcf
 
     else:
         return "No Common Factors"
