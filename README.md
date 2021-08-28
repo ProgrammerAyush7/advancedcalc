@@ -144,16 +144,16 @@ factors = Advanced.factors(10)
 print(factors)
 ```
 
-#### HFC
+#### HCF
 Find the Highest Common Factor of 2 Numbers
 
 ```python
 from AdvancedCalc import Advanced
 
 # returns 10
-hfc = Advanced.hfc(10, 20)
+hcf = Advanced.hcf(10, 20)
 
-print(hfc)
+print(hcf)
 ```
 
 #### LCM
