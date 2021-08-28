@@ -151,7 +151,7 @@ Find the Highest Common Factor of 2 Numbers
 from AdvancedCalc import Advanced
 
 # returns 10
-hfc = Advanced.hfc(10, 20)
+hcf = Advanced.hfc(10, 20)
 
 print(hfc)
 ```
