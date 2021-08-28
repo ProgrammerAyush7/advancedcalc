@@ -46,7 +46,7 @@ def factors(num):
 def cube(num):
     return num*num*num
 
-def hfc(num1, num2):
+def hcf(num1, num2):
     factors1 = set(factors(num1))
     factors2 = set(factors(num2))
     
@@ -57,7 +57,7 @@ def hfc(num1, num2):
         return hfc
 
     else:
-        return "No Common Factors"
+        return None
 
 def lcm(num1, num2):
     factors1 = set(factors(num1))
@@ -74,5 +74,5 @@ def lcm(num1, num2):
         return lcm
 
     else:
-        return "No Common Multiples"
+        return None
 
